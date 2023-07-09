@@ -1,0 +1,6 @@
+applications:
+  - name: nuxt-cf
+    buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+    path: .output
+    memory: 128M
+    command: node server/index.mjs
