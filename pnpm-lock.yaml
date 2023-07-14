@@ -14,6 +14,9 @@ devDependencies:
   '@types/node':
     specifier: ^18.16.19
     version: 18.16.19
+  cookie-es:
+    specifier: ^1.0.0
+    version: 1.0.0
   nuxt:
     specifier: ^3.6.2
     version: 3.6.2(@types/node@18.16.19)
