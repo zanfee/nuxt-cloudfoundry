@@ -4,6 +4,7 @@ const { locale } = useI18n()
 
 <template>
   <div>
+    <p>Vercel</p>
     <form>
       <select v-model="locale">
         <option value="en">en</option>
